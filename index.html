@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Toqa Samalouty — Software Engineer Portfolio" />
+  <title>Toqa Samalouty | Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="logo" href="#home">TS<span>.</span></a>
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#university-work">University Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact" class="nav-cta">Let's talk</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">SOFTWARE ENGINEERING STUDENT</p>
+        <h1 class="name-title">TOQA<br>ELSAMALOUTY</h1>
+        <p class="hero-role">Software Engineering Student</p>
+        <p class="hero-text">Hi, I'm Toqa. I’m a Software Engineering student who enjoys learning how software is designed, built, and improved. I’m developing my technical foundation through hands-on study and practical projects.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-dark">View my projects <span>↗</span></a>
+          <a href="#contact" class="text-link">Get in touch <span>→</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="code-card"><span>&lt;/&gt;</span><div></div><div></div><div></div></div>
+      </div>
+    </section>
+
+    <section id="about" class="section container two-col">
+      <div><p class="eyebrow">01 — ABOUT</p><h2>A little<br><em>about me.</em></h2></div>
+      <div class="section-copy">
+        <p>I’m a Software Engineering student at the Faculty of Computers and Informatics, Suez Canal University, with an expected graduation year of 2029.</p>
+        <p>I’m building my foundation in object-oriented programming, web design and development, computer networks, data structures, database systems, and software engineering. I enjoy learning by building and turning what I study into practical solutions.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <p class="eyebrow">02 — SKILLS</p><h2>Tools I <em>work with.</em></h2>
+        <div class="skills-grid">
+          <div class="skill-group"><h3>Programming</h3><p>Object-Oriented Programming · Data Structures</p></div>
+          <div class="skill-group"><h3>Web Development</h3><p>Web Design · Web Development</p></div>
+          <div class="skill-group"><h3>Databases</h3><p>Database Systems</p></div>
+          <div class="skill-group"><h3>Computer Science</h3><p>Computer Networks · Software Engineering</p></div>
+          <div class="skill-group"><h3>Tools</h3><p>Microsoft Office Suite · GitHub</p></div>
+          <div class="skill-group"><h3>Soft Skills</h3><p>Organization · Cross-Functional Teamwork · Rapid Adaptability</p></div>
+        </div>
+        <p class="edit-note">My technical toolkit is growing through coursework, practice, and hands-on projects.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-head"><div><p class="eyebrow">03 — PROJECTS</p><h2>Selected <em>work.</em></h2></div><span class="project-count">Projects coming soon</span></div>
+      <div class="projects-grid">
+        <article class="project-card featured">
+          <div class="project-number">01</div>
+          <div class="project-content"><span class="tag">IN PROGRESS</span><h3>Building My Software Portfolio</h3><p>This portfolio is my first step toward documenting my software engineering journey, skills, and future projects in one place.</p><div class="stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://github.com/toqa-elsamalouty-alt" target="_blank" rel="noopener">GitHub ↗</a></div></div>
+        </article>
+        <article class="project-card"><div class="project-number">02</div><div class="project-content"><span class="tag">COMING SOON</span><h3>Academic Projects</h3><p>Coursework projects in programming, data structures, databases, web development, and software engineering will be added here as they are completed.</p><div class="stack"><span>OOP</span><span>Data Structures</span><span>Databases</span></div></div></article>
+        <article class="project-card"><div class="project-number">03</div><div class="project-content"><span class="tag">COMING SOON</span><h3>Future Projects</h3><p>More practical software projects will be featured here as I continue developing my engineering skills.</p><div class="stack"><span>Web Development</span><span>Software Engineering</span></div></div></article>
+      </div>
+    </section>
+
+    <section id="university-work" class="section university-section">
+      <div class="container">
+        <div class="section-head university-head">
+          <div><p class="eyebrow">04 — UNIVERSITY WORK</p><h2>Learning, documented.<br><em>One task at a time.</em></h2></div>
+          <span class="project-count" id="work-count">Public tasks</span>
+        </div>
+        <p class="university-intro">A collection of university assignments, notes, presentations, images, and code. Choose a year to explore the work shared publicly.</p>
+        <div class="work-toolbar">
+          <label class="filter-label">Academic year
+            <select id="year-filter"><option value="all">All years</option><option value="Year 1">Year 1</option><option value="Year 2">Year 2</option><option value="Year 3">Year 3</option><option value="Year 4">Year 4</option></select>
+          </label>
+          <label class="filter-label">File type
+            <select id="type-filter"><option value="all">All file types</option><option value="PDF">PDF</option><option value="Image">Images</option><option value="Code">Code</option><option value="PowerPoint">PowerPoint</option></select>
+          </label>
+        </div>
+        <div id="work-status" class="work-status" role="status">Public university work will appear here when persistent storage is configured.</div>
+        <div id="work-grid" class="work-grid"></div>
+
+        <div class="admin-panel drive-help-panel" id="admin-panel">
+          <div class="admin-heading"><div><p class="eyebrow">EASY UPDATE</p><h3>Add work using Google Drive</h3><p class="muted">No database, backend, or account connection needed.</p></div><span class="setup-pill">Manual link setup</span></div>
+          <ol class="drive-steps">
+            <li>Upload your assignment or project to Google Drive.</li>
+            <li>For public work, set General access to <strong>Anyone with the link — Viewer</strong>. For private work, keep Restricted access and do not add it to the public list.</li>
+            <li>Open <code>drive-work.js</code> and add the task title, description, academic year, file type, and Drive URL to the list.</li>
+            <li>Upload the updated site files to your hosting service to publish the new card.</li>
+          </ol>
+          <p class="setup-warning">Privacy note: this is a static portfolio. A “private” item must not be listed in the public site, and its Drive file must remain Restricted. Hiding a link in the page alone is not access control.</p>
+          <a class="btn btn-dark" href="https://drive.google.com/" target="_blank" rel="noopener">Open Google Drive ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section container two-col experience-section">
+      <div><p class="eyebrow">05 — EXPERIENCE</p><h2>My <em>journey.</em></h2></div>
+      <div class="timeline">
+        <div class="timeline-item"><span class="date">AUG 2025 — PRESENT</span><h3>Social Media Specialist</h3><p class="muted">Influence Targeting — Digital Marketing Agency</p><p>Developing and executing content plans, managing multi-platform publishing, and supporting active community engagement.</p></div>
+        <div class="timeline-item"><span class="date">JUL 2026 — SEP 2026</span><h3>Content Creator</h3><p class="muted">Nexura — Marketing Agency</p><p>Created video scripts and structured content strategies aligned with brand objectives and campaign timelines.</p></div>
+        <div class="timeline-item"><span class="date">EXPECTED GRADUATION — 2029</span><h3>B.Sc. in Software Engineering</h3><p class="muted">Faculty of Computers and Informatics, Suez Canal University</p><p>GPA: 3.11 / 4.00</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-inner">
+        <p class="eyebrow">06 — CONTACT</p><h2>Let's build something<br><em>meaningful together.</em></h2>
+        <p>I'm open to new opportunities, interesting projects, and collaborations.</p>
+        <a class="email" href="mailto:toqasamalouty@gmail.com">toqasamalouty@gmail.com <span>↗</span></a>
+        <div class="socials"><a href="https://github.com/toqa-elsamalouty-alt" target="_blank" rel="noopener">GitHub</a><a href="https://linkedin.com/in/toka-elsamalouty-498b37378" target="_blank" rel="noopener">LinkedIn</a><a href="Toqa-ElSamalouty-CV.pdf" target="_blank">CV</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-inner"><span>© 2026 Toqa Samalouty</span><span>Software Engineer</span></div></footer>
+  <script src="drive-work.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

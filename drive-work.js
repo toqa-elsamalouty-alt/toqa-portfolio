@@ -19,15 +19,15 @@
   - Keep private files out of this list and leave their Drive access as Restricted.
   - A static website cannot provide a secure private admin area by itself.
 */
+
 window.UNIVERSITY_WORK = [
-title: "Web design and development - Assignment 1
-",
-    description: "Difference between GET & POST by methods
-",
+  {
+    title: "Web design and development - Assignment 1",
+    description: "Difference between GET & POST methods",
     academic_year: "Year 2",
-    type: "PDF", // PDF | Image | Code | PowerPoint
-    file_name: "Web design and development - Assignment 1
-.pdf",
+    type: "PDF",
+    file_name: "Web design and development - Assignment 1.pdf",
     url: "https://docs.google.com/document/d/1otOf2SUSwhP6ZkfuIEC9WfDK57ClqYUvI6tWiLY9g2A/edit?usp=sharing",
     visibility: "public"
+  }
 ];

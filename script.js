@@ -25,7 +25,7 @@
     const filtered = items.filter(item => (year === 'all' || item.academic_year === year) && (type === 'all' || fileType(item) === type));
     $('work-grid').innerHTML = filtered.map(card).join('');
     $('work-count').textContent = `${filtered.length} public ${filtered.length === 1 ? 'item' : 'items'}`;
-    $('work-status').textContent = filtered.length ? 'Showing publicly shared university work. Files open through Google Drive.' : 'No public tasks here yet. Add a public Drive link to drive-work.js to display your first task.';
+    $('work-status').textContent = filtered.length ? 'Showing publicly shared university work. Files open through Google Drive.' : 'University work will appear here as public assignments are added.';
   };
   $('year-filter').addEventListener('change', render);
   $('type-filter').addEventListener('change', render);

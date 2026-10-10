@@ -1,6 +1,6 @@
 # University Work — simple Google Drive setup
 
-This version uses Google Drive links instead of a database or upload backend. It is intentionally simple: you upload files to Drive, then add public file links to `drive-work.js`.
+The University Work section is public on the portfolio. This version uses Google Drive links instead of a database or upload backend. To publish assignments, add their public file links to `drive-work.js` and redeploy the site.
 
 ## Add a public assignment
 1. Upload the file to Google Drive (PDF, image, code file, PowerPoint, or ZIP).

@@ -23,10 +23,10 @@
 window.UNIVERSITY_WORK = [
   {
     title: "Lab Assignment 1",
-    description: "this is my first website",
+    description: "This is my first website",
     academic_year: "Year 2",
-    type: "HTML",
-    file_name: "Lab assignment 1",
+    type: "html",
+    file_name: "lab assignment 1",
     url: "https://drive.google.com/drive/folders/13DsgPDhXRerB8aRRp6Few7UyNI2UbhuQ?usp=drive_link",
     visibility: "public"
   }

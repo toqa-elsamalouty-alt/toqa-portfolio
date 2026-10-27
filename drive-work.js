@@ -20,6 +20,7 @@
   - A static website cannot provide a secure private admin area by itself.
 */
 
+
 window.UNIVERSITY_WORK = [
   {
     title: "Lab Assignment 1",
@@ -29,12 +30,8 @@ window.UNIVERSITY_WORK = [
     file_name: "lab assignment 1",
     url: "https://drive.google.com/drive/folders/13DsgPDhXRerB8aRRp6Few7UyNI2UbhuQ?usp=drive_link",
     visibility: "public"
-  }
-];
-
-
-window.UNIVERSITY_WORK = [
-{
+  },
+  {
     title: "Lab Assignment 2",
     description: "task 2 & task 3",
     academic_year: "Year 2",
@@ -43,4 +40,4 @@ window.UNIVERSITY_WORK = [
     url: "https://drive.google.com/drive/folders/1v989D8e2mtuDPFsuVwm0gcHxmCt-GZW7?usp=drive_link",
     visibility: "public"
   }
-  ];
+];

@@ -22,12 +22,12 @@
 
 window.UNIVERSITY_WORK = [
   {
-    title: "Web design and development - Assignment 1",
-    description: "Difference between GET & POST methods",
+    title: "Lab Assignment 1",
+    description: "this is my first website",
     academic_year: "Year 2",
-    type: "PDF",
-    file_name: "Web design and development - Assignment 1.pdf",
-    url: "https://docs.google.com/document/d/1otOf2SUSwhP6ZkfuIEC9WfDK57ClqYUvI6tWiLY9g2A/edit?usp=sharing",
+    type: "HTML",
+    file_name: "Lab assignment 1",
+    url: "https://drive.google.com/drive/folders/13DsgPDhXRerB8aRRp6Few7UyNI2UbhuQ?usp=drive_link",
     visibility: "public"
   }
 ];
